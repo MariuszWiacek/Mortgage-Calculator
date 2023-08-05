@@ -1,0 +1,60 @@
+/* Add your custom CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header  {
+    background-color: #1c013e;
+    color: #fff;
+    text-align: center;
+    font-size:x-large;
+    padding: 1em 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+color: rgb(128, 128, 128);
+font-style: italic;
+font-size: small;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c1c1c1;
+}
+
+main {
+    padding: 10px;
+}
+form {
+    text-align: center;
+    padding: 2cm;
+}
+
+form label,
+form input {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #1c013e;
+}
+
+

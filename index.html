@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortgage Calculator by MW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Mortgage Calculator</h1><p>by Mariusz Wiacek</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Your Mortgage Payment Information</h2>
+            <form>
+                <label for="loan-amount">Loan Amount:</label>
+                <input type="number" id="loan-amount" step="1000" required><br>
+                <label for="down-payment">Deposit:</label>
+                <input type="number" id="down-payment" step="1000" required><br>
+                <label for="interest-rate">Interest Rate (%):</label>
+                <input type="number" id="interest-rate" step="0.01" value="6" required><br>
+    
+                <label for="loan-term">Loan Term (years):</label>
+                <input type="number" id="loan-term" step="1" required><br>
+    
+                <button type="button" id="calculate-button">Calculate</button>
+            </form>
+    
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Mariusz Wiacek. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
